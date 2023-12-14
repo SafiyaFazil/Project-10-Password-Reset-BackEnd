@@ -132,7 +132,6 @@ export const resetPassword = async (req, res) => {
 //Reset Password
 
 export const resetPasswordpage = async (req, res) => {
-  console.log("insidee reset function>>>>>>>>>>>");
   try {
     const token = req.body.token;
     const password = req.body.password;
